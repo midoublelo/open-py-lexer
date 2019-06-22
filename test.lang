@@ -1,0 +1,5 @@
+var "name" = Dave
+var "age" = 22
+var "info" = name," is ",age
+
+print(info);
