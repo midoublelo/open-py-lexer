@@ -1,2 +1,2 @@
 # open-py-lexer
-An open source lexer for anyone wanting to make a programming language in Python.
+An open source lexer for anyone wanting to make a programming language in Python. I recommend you still have a basic understanding of what a lexer is. Main.py includes initialisation for the lexer and lexer.py has all of the logic for the lexer and is where it detects and turns syntax into tokens. An example of the lexer is available in the test.lang file. It is fully commented and working.
