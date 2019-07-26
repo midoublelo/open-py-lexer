@@ -41,7 +41,7 @@ class Lexer(object):
 			elif word in "=/*=-+":
 				tokens.append(['OPERATOR', word])
 
-			# This will recognise an operator and create an identifier token for it
+			# This will recognise an semicolon and create an identifier token for it
 			elif word in ";":
 				tokens.append(['SEMICOLON', word])
 
