@@ -27,7 +27,7 @@ class Lexer(object):
 			word = (source_code[source_index])
 
 			# Recognises variables and creates token for it
-			if word == "var": tokens.append(["VAR_DECLERATION", word])
+			if word == "var": tokens.append(["VAR_DECLARATION", word])
 
 			# This will recognise a word and create an identifier token for it
 			elif re.match('[a-z]', word) or re.match('[A-Z]', word):
