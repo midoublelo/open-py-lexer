@@ -44,6 +44,10 @@ class Lexer(object):
 			# This will recognise an semicolon and create an identifier token for it
 			elif word in ";":
 				tokens.append(['SEMICOLON', word])
+				
+			# This will recognise an semicolon and create an identifier token for it
+			elif word in '"':
+				tokens.append(['QUOTES', word])
 
 			# Increases word index after checking it
 			source_index += 1
